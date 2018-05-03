@@ -26,11 +26,7 @@ public class UpdateManager {
 
     private Context mContext; //上下文
 
-    private String apkUrl =
-            "http://183.232.83.10/dd.myapp.com/16891/" +
-                    "C4F9FF39FAE9184222DC278DC7309611.apk?mkey" +
-                    "=5541c92b6a9cca8d&f=d388&fsname=com.yangmbin" +
-                    ".beauty_1.1_2.apk&asr=8eff&p=.apk"; //apk下载地址
+    private String apkUrl = "http://openbox.mobilem.360.cn/index/d/sid/3429345"; //apk下载地址
     private static final String savePath = "/sdcard/updateAPK/"; //apk保存到SD卡的路径
     private static final String saveFileName = savePath + "apkName.apk"; //完整路径名
 
